@@ -1,22 +1,19 @@
-"homepage": "https://<your-github-username>.github.io/<your-repo-name>"
+
 {
   "name": "responsive-dashboard",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://bharathiv26.github.io/responsive-react/",
   "dependencies": {
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
-    "@mui/icons-material": "^5.16.6",
-    "@mui/material": "^5.16.6",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "formik": "^2.4.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.7.0",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/material": "^5.4.4",
+    "formik": "^2.2.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,25 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^3.2.3"
   }
 }
